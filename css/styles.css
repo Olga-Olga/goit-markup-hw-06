@@ -861,3 +861,9 @@ align-items: center; */
   height: 100%;
   transform: translateY(100%);
 }
+
+/* ! MODAL FORMS HW6 */
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
