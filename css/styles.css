@@ -901,7 +901,6 @@ align-items: center; */
   transition: fill 250ms var(--time-f-cubic);
 }
 
-
 .modal-form-label {
   font-family: 'Roboto';
   font-style: normal;
