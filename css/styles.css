@@ -964,7 +964,11 @@ input {
   resize: none;
 }
 .modal-form-input:focus ~ .modal-icon
-/* .modal-form-input:hover ~ .modal-icon  */ {
+  {
+  fill: #404bbf;
+}
+
+.modal-form-input:hover ~ .modal-icon {
   fill: #404bbf;
 }
 
