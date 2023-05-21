@@ -520,7 +520,8 @@ img {
 .footer-wrapper {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+  /* gap: 120px; */
+  justify-content: space-between;
 }
 
 .footer .link {
@@ -581,15 +582,15 @@ img {
 
 .footer-medi-icons-list {
   display: flex;
-  width: 40px;
+  /* width: 40px; */
   height: 40px;
-  justify-content: baseline;
+  justify-content: center;
   gap: 16px;
 }
 
 .footer-logo {
   width: 264px;
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 
 .footer-media-icons {
@@ -1019,3 +1020,67 @@ input {
 .modal-submit-btn:focus {
   background-color: #404bbf;
 }
+
+
+/* 3 SECTION of FOOTER */
+.footer-subscribe-block {
+  width:auto
+}
+
+.sbs-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.footer-input{
+  background-color: var(--color-navyblue);
+  color: white;
+  min-width: 264px;
+  margin-right: 24px;
+  padding: 8px 16px;
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+
+.footer-form-sbs{
+  display: flex;
+  align-items: baseline;
+  /* gap: 24px; */
+}
+
+
+  input::placeholder {
+    color: white;
+  }
+
+  .footer-form-btn{
+    display: flex;
+    justify-content: space-around;
+    min-width: 165px;
+    padding: 8px 24px;  
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    color: white;
+    background-color: #4d5ae5;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: 250ms background-color var(--timing-function);
+  }
+
+  .footer-form-btn:focus, .footer-form-btn:focus{
+    background-color:#404bbf;
+  } 
+
+  .submit-icon{
+    /* padding-left: 5px; */
+   fill: white;
+
+  }
