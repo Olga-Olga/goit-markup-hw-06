@@ -898,6 +898,7 @@ align-items: center; */
 .modal-form-input:focus,
 .modal-form-input:hover {
   border-color: var(--color-ocean);
+  transition: fill 250ms var(--time-f-cubic);
 }
 
 
@@ -962,6 +963,7 @@ input {
   letter-spacing: 0.04em;
   color: var(--color-navyblue);
   resize: none;
+ 
 }
 .modal-form-input:focus ~ .modal-icon
   {
@@ -1082,6 +1084,7 @@ input {
 
   .footer-form-btn:hover, .footer-form-btn:focus{
     background-color:#404bbf;
+    
   } 
 
   .submit-icon{
