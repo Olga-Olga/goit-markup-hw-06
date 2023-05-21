@@ -889,10 +889,10 @@ align-items: center; */
   /* TODO */
   padding-left: 40px;
   transition: border-color 250ms var(--time-f-cubic);
+  transition: fill 250ms var(--time-f-cubic);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  /* margin-top: auto;
-  padding: auto; */
+
 }
 
 .modal-form-input:focus,
@@ -954,16 +954,17 @@ input {
 
 .modal-form-textarea {
   padding: 10px 19px;
-  font-family: 'Roboto';
+  /* font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400; */
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.04em;
   color: var(--color-navyblue);
   resize: none;
- 
+  padding-left: 18px;
 }
+
 .modal-form-input:focus ~ .modal-icon
   {
   fill: #404bbf;
@@ -1061,7 +1062,7 @@ input {
 }
 
 
-  input::placeholder {
+  .footer-input::placeholder {
     color: white;
   }
 
